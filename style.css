@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #222831;
+    padding-right: 172px;
+}
+
+.container {
+    padding: 5px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    color: #4a4a4a;
+    padding-right: 210px;
+    margin-left: 10px;
+}
+
+.search-box {
+    background-color: #4a4a4a;
+    border-radius: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.search-box:hover>.search-text {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.icon-search {
+    background: #f89d13;
+    text-decoration: none;
+    color: white;
+}
+
+.icon-search {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+}
+
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.btn-navbar {
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: #f89d13;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.8px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('img/rafael-saes-1575950-unsplash.png');
+    background-size: cover;
+    height: 716px;
+    color: white;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(90deg, rgb(29, 29, 29), rgba(0, 0, 0, 0.02));
+    bottom: 0;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.display-4 {
+    font-weight: 500px;
+    font-size: 50px;
+    letter-spacing: 1.3px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.display-4 span {
+    font-weight: 600;
+    color: #f89d13;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    padding-bottom: 25px;
+}
+
+.btn-jumbotron {
+    width: 190px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #f89d13;
+    color: white;
+    letter-spacing: 0.8px;
+    border: none;
+}
+
+.our-service {
+    height: 870px;
+}
+
+.our-service p {
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: 0.5px;
+    color: #bbbbbb;
+    padding-top: 60px;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.our-service .profesional {
+    padding-top: 100px;
+}
+
+.profesional {
+    position: relative;
+}
+
+.profesional .rectangle-1 {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: rgba(77, 77, 77, 0.15);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.profesional .rectangle-2 img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.profesional .rectangle-3 {
+    top: 200px;
+    position: absolute;
+    left: 250px;
+}
+
+.profesional .rectangle-3 img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.profesional h3 {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: salmon;
+    text-transform: uppercase;
+}
+
+.profesional p {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #7d7d7d;
+    padding-top: 32px;
+}
+
+.profesional .nilai {
+    padding-top: 40px;
+}
+
+.profesional .nilai p span {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #f89d13;
+    margin-right: 25px;
+}
+
+.profesional .nilai p {
+    font-size: 14px;
+}
+
+/* lastest */
+.lastest {
+    height: 550px;
+    background-color: salmon;
+    padding-top: 100px;
+}
+
+.judul-latest {
+    color: white;
+}
+
+.lastest .judul-latest h1 {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.lastest .judul-latest p {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+}
+
+.carousal .carousel-control-prev {
+    margin-left: 220px;
+}
+
+.carousal .carousel-control-next {
+    margin-right: 200px;
+}
+
+.lastest .active {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.lastest .isi-latest {
+    padding-top: 30px;
+}
+
+.isi-latest .card {
+    padding: 30px 20px 40px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.isi-latest .card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: salmon;
+    padding-bottom: 20px;
+}
+
+.isi-latest .card p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #7d7d7d;
+}
+
+
+/* blog */
+.blog {
+    padding-top: 100px;
+}
+
+.blog h1 {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: salmon;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.blog .card {
+    width: 350px;
+    height: 250px;
+    border: none;
+}
+
+.blog img {
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+}
+
+.blog .card-body {
+    padding-left: 0px;
+}
+
+.card-body .tanggal {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #7d7d7d;
+    padding-top: -25px;
+}
+
+.card-body .card-title {
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: salmon;
+    padding-top: -15px;
+}
+
+.card-body a {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #222831;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
+.blog .btn-blog {
+    background-color: #f89d13;
+    color: white;
+    margin-top: 250px;
+}
+
+/* contact */
+.contact {
+    background-color: #ff8b81;
+    height: 220px;
+    color: white;
+    margin-top: 100px;
+}
+
+.contact h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding-top: 45px;
+}
+
+.contact p {
+    ont-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+}
+
+.contact .btn-contact {
+    background-color: #f89d13;
+    color: white;
+    border: 1px solid #f89d13;
+}
+
+/* footer */
+.footer {
+    height: 380px;
+    background-color: salmon;
+}
+
+.footer .container {
+    padding-top: 64px;
+    color: white;
+}
+
+.footer h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.footer p {
+    padding-bottom: 5px;
+}
